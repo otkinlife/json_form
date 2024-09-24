@@ -3,9 +3,9 @@ import JsonInput from './components/JsonInput';
 import Form from '@rjsf/core';
 import validator from '@rjsf/validator-ajv8';
 import JsonPreview from './components/JsonPreview';
-import { schemaToJson } from './utils/schemaToJson';
 
 import './App.css';
+
 
 function App() {
   const [jsonSchema, setJsonSchema] = useState(null);
